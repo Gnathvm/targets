@@ -681,6 +681,21 @@
                 "prior_target_name": "EMAX_NANO_900_TX"
             }
         },
+    "gn": {
+        "name": "GNLR1121",
+        "gn_tx": {
+            "plain": {
+                "product_name": "GN OLED TX",
+                "lua_name": "GN LR1121 TX",
+                "layout_file": "GN TX LR1121.json",
+                "features": ["fan"],
+                "upload_methods": ["uart", "wifi", "betaflight"],
+                "min_version": "3.5.0",
+                "platform": "esp32",
+                "firmware": "Unified_ESP32_LR1121_TX",
+                "prior_target_name": "GN_LR1121_TX"
+            },
+        },
         "rx_900": {
             "plain": {
                 "product_name": "EMAX 900MHz RX",
